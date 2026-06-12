@@ -126,7 +126,7 @@ function Game() {
   }
 
   // ============ Town ============
-  if (!save) { setView("title"); return null; }
+  if (!save) { return null; }
 
   return (
     <div className="min-h-screen flex flex-col">
